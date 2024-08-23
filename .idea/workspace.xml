@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="DefaultSubscriber">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec02/Lec02MonoEmptyError.java" afterDir="false" />
+    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec02MonoEmptyError">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec02/Lec05MonoFromSupplier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sec02/Lec02MonoEmptyError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sec02/Lec04MonoEmptyError.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +49,9 @@
       <recent name="org.example.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec02MonoEmptyError">
-    <configuration name="Lec02MonoEmptyError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec02MonoEmptyError" />
+  <component name="RunManager" selected="Application.Lec05MonoFromSupplier">
+    <configuration name="Lec04MonoEmptyError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec04MonoEmptyError" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
@@ -62,21 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lec02MonoJust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec02MonoJust" />
-      <module name="Udemy-Mastering-Java-Reactive-Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.sec02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lec03MonoSubscribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec03MonoSubscribe" />
+    <configuration name="Lec05MonoFromSupplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec05MonoFromSupplier" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +89,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.sec02.Lec02MonoJust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec02MonoJust" />
+      <module name="Udemy-Mastering-Java-Reactive-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sec02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.sec02.Lec03MonoSubscribe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec03MonoSubscribe" />
+      <module name="Udemy-Mastering-Java-Reactive-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sec02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lec02MonoEmptyError" />
+        <item itemvalue="Application.Lec05MonoFromSupplier" />
+        <item itemvalue="Application.Lec04MonoEmptyError" />
         <item itemvalue="Application.Util" />
-        <item itemvalue="Application.Lec03MonoSubscribe" />
-        <item itemvalue="Application.org.example.sec01.Lec02MonoJust" />
+        <item itemvalue="Application.org.example.sec02.Lec03MonoSubscribe" />
+        <item itemvalue="Application.org.example.sec02.Lec02MonoJust" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724272716634</updated>
-      <workItem from="1724272718175" duration="9104000" />
+      <workItem from="1724272718175" duration="10019000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1724272737086</created>
@@ -155,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724354676487</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lec02MonoEmptyError">
+      <created>1724359730977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724359730977</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +200,7 @@
     <MESSAGE value="Lec02MonoJust" />
     <MESSAGE value="Lec03MonoSubscribe" />
     <MESSAGE value="DefaultSubscriber" />
-    <option name="LAST_COMMIT_MESSAGE" value="DefaultSubscriber" />
+    <MESSAGE value="Lec02MonoEmptyError" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lec02MonoEmptyError" />
   </component>
 </project>

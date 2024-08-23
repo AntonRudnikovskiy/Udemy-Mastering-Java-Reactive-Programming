@@ -3,7 +3,7 @@ package org.example.sec02;
 import org.example.common.Util;
 import reactor.core.publisher.Mono;
 
-public class Lec02MonoEmptyError {
+public class Lec04MonoEmptyError {
     public static void main(String[] args) {
         getUsername(2).subscribe(Util.subscriber());
     }
