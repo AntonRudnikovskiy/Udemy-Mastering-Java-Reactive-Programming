@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec02MultipleSubscribers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec03/Lec03FluxFromIterableOrArray.java" afterDir="false" />
+    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec03FluxFromIterableOrArray">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec03/Lec04FluxFromStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="org.example.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec03FluxFromIterableOrArray">
+  <component name="RunManager" selected="Application.Lec04FluxFromStream">
     <configuration name="FileServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sec02.assignment.FileServiceImpl" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lec05MonoFromSupplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec05MonoFromSupplier" />
+    <configuration name="Lec04FluxFromStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec04FluxFromStream" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sec02.assignment.*" />
+          <option name="PATTERN" value="org.example.sec03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lec04FluxFromStream" />
         <item itemvalue="Application.Lec03FluxFromIterableOrArray" />
         <item itemvalue="Application.org.example.sec03.Lec02MultipleSubscribers" />
         <item itemvalue="Application.Lec01FluxJust" />
         <item itemvalue="Application.FileServiceImpl" />
-        <item itemvalue="Application.org.example.sec02.Lec05MonoFromSupplier" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724272716634</updated>
-      <workItem from="1724272718175" duration="28969000" />
+      <workItem from="1724272718175" duration="31035000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1724272737086</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724507551085</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lec03FluxFromIterableOrArray">
+      <created>1724508555955</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724508555955</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +251,7 @@
     <MESSAGE value="FileServiceImpl" />
     <MESSAGE value="Lec03FluxJust" />
     <MESSAGE value="Lec02MultipleSubscribers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lec02MultipleSubscribers" />
+    <MESSAGE value="Lec03FluxFromIterableOrArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lec03FluxFromIterableOrArray" />
   </component>
 </project>
