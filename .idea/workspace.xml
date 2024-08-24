@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec03FluxJust">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec03/Lec03MultipleSubscribers.java" afterDir="false" />
+    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec02MultipleSubscribers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec03/Lec03FluxFromIterableOrArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <recent name="org.example.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec03MultipleSubscribers">
+  <component name="RunManager" selected="Application.Lec03FluxFromIterableOrArray">
     <configuration name="FileServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sec02.assignment.FileServiceImpl" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
@@ -66,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lec03FluxJust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec03FluxJust" />
+    <configuration name="Lec01FluxJust" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec01FluxJust" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
@@ -79,25 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lec03MultipleSubscribers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec03MultipleSubscribers" />
+    <configuration name="Lec03FluxFromIterableOrArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec03FluxFromIterableOrArray" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.sec03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lec04MonoEmptyError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec02.Lec04MonoEmptyError" />
-      <module name="Udemy-Mastering-Java-Reactive-Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.sec02.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.sec03.Lec02MultipleSubscribers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec02MultipleSubscribers" />
+      <module name="Udemy-Mastering-Java-Reactive-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.sec03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lec03MultipleSubscribers" />
-        <item itemvalue="Application.Lec03FluxJust" />
+        <item itemvalue="Application.Lec03FluxFromIterableOrArray" />
+        <item itemvalue="Application.org.example.sec03.Lec02MultipleSubscribers" />
+        <item itemvalue="Application.Lec01FluxJust" />
         <item itemvalue="Application.FileServiceImpl" />
         <item itemvalue="Application.org.example.sec02.Lec05MonoFromSupplier" />
-        <item itemvalue="Application.org.example.sec02.Lec04MonoEmptyError" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724272716634</updated>
-      <workItem from="1724272718175" duration="28011000" />
+      <workItem from="1724272718175" duration="28969000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1724272737086</created>
@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724506701829</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lec02MultipleSubscribers">
+      <created>1724507551085</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724507551085</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="Lec06MonoFromCallable" />
     <MESSAGE value="FileServiceImpl" />
     <MESSAGE value="Lec03FluxJust" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lec03FluxJust" />
+    <MESSAGE value="Lec02MultipleSubscribers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lec02MultipleSubscribers" />
   </component>
 </project>
