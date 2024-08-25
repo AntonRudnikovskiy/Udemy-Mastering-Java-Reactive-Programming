@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec02FluxCreateRefactor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec04/Lec03FluxSinkThreadSafety.java" afterDir="false" />
+    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec03FluxSinkThreadSafety">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec04/Lec04FluxCreateDefaultBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="org.example.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec03FluxSinkThreadSafety">
+  <component name="RunManager" selected="Application.Lec04FluxCreateDefaultBehavior">
     <configuration name="Lec01FluxCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sec04.Lec01FluxCreate" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lec06Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec06Log" />
+    <configuration name="Lec04FluxCreateDefaultBehavior" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec04.Lec04FluxCreateDefaultBehavior" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sec03.*" />
+          <option name="PATTERN" value="org.example.sec04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lec04FluxCreateDefaultBehavior" />
         <item itemvalue="Application.Lec03FluxSinkThreadSafety" />
         <item itemvalue="Application.Lec02FluxCreateRefactor" />
         <item itemvalue="Application.Lec01FluxCreate" />
         <item itemvalue="Application.org.example.sec03.assignment.ReactiveTrade" />
-        <item itemvalue="Application.Lec06Log" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724272716634</updated>
-      <workItem from="1724272718175" duration="50047000" />
+      <workItem from="1724272718175" duration="51616000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1724272737086</created>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724597449852</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Lec03FluxSinkThreadSafety">
+      <created>1724600905151</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724600905151</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +308,7 @@
     <MESSAGE value="StockPriceObserver" />
     <MESSAGE value="Lec01FluxCreate" />
     <MESSAGE value="Lec02FluxCreateRefactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lec02FluxCreateRefactor" />
+    <MESSAGE value="Lec03FluxSinkThreadSafety" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lec03FluxSinkThreadSafety" />
   </component>
 </project>
