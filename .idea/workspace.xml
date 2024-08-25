@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec05FluxRange">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec03/Lec06Log.java" afterDir="false" />
+    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec06Log">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/common/TraderSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec03/assignment/ReactiveTrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
@@ -52,7 +54,7 @@
       <recent name="org.example.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec06Log">
+  <component name="RunManager" selected="Application.org.example.sec03.assignment.ReactiveTrade">
     <configuration name="Lec03FluxFromIterableOrArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec03FluxFromIterableOrArray" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.sec03.Lec02MultipleSubscribers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec02MultipleSubscribers" />
+    <configuration name="ReactiveTrade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec03.assignment.ReactiveTrade" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sec03.*" />
+          <option name="PATTERN" value="org.example.sec03.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.sec03.assignment.ReactiveTrade" />
         <item itemvalue="Application.Lec06Log" />
         <item itemvalue="Application.Lec05FluxRange" />
         <item itemvalue="Application.Lec04FluxFromStream" />
         <item itemvalue="Application.Lec03FluxFromIterableOrArray" />
-        <item itemvalue="Application.org.example.sec03.Lec02MultipleSubscribers" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724272716634</updated>
-      <workItem from="1724272718175" duration="32633000" />
+      <workItem from="1724272718175" duration="41355000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1724272737086</created>
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724511829130</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lec06Log">
+      <created>1724515811665</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724515811666</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +277,7 @@
     <MESSAGE value="Lec03FluxFromIterableOrArray" />
     <MESSAGE value="Lec04FluxFromStream" />
     <MESSAGE value="Lec05FluxRange" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lec05FluxRange" />
+    <MESSAGE value="Lec06Log" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lec06Log" />
   </component>
 </project>
