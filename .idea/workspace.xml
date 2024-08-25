@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="StockPriceObserver">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec04/Lec01FluxCreate.java" afterDir="false" />
+    <list default="true" id="97367fee-d498-4abb-a663-ac096a66a2a4" name="Changes" comment="Lec01FluxCreate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec04/Lec02FluxCreateRefactor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sec04/helper/NameGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/common/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/common/Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <recent name="org.example.common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lec01FluxCreate">
+  <component name="RunManager" selected="Application.Lec02FluxCreateRefactor">
     <configuration name="Lec01FluxCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.sec04.Lec01FluxCreate" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
@@ -70,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lec04FluxFromStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sec03.Lec04FluxFromStream" />
+    <configuration name="Lec02FluxCreateRefactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.sec04.Lec02FluxCreateRefactor" />
       <module name="Udemy-Mastering-Java-Reactive-Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sec03.*" />
+          <option name="PATTERN" value="org.example.sec04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lec02FluxCreateRefactor" />
         <item itemvalue="Application.Lec01FluxCreate" />
         <item itemvalue="Application.org.example.sec03.assignment.ReactiveTrade" />
         <item itemvalue="Application.Lec06Log" />
         <item itemvalue="Application.Lec05FluxRange" />
-        <item itemvalue="Application.Lec04FluxFromStream" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724272716634</updated>
-      <workItem from="1724272718175" duration="46703000" />
+      <workItem from="1724272718175" duration="47481000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1724272737086</created>
@@ -254,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724587520725</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lec01FluxCreate">
+      <created>1724596548181</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724596548181</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +293,7 @@
     <MESSAGE value="Lec05FluxRange" />
     <MESSAGE value="Lec06Log" />
     <MESSAGE value="StockPriceObserver" />
-    <option name="LAST_COMMIT_MESSAGE" value="StockPriceObserver" />
+    <MESSAGE value="Lec01FluxCreate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lec01FluxCreate" />
   </component>
 </project>
